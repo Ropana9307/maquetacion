@@ -1,0 +1,57 @@
+body {
+    font-family: verdana;
+}
+img{
+    width: 400px;
+    height: 200px;
+}
+h1{
+    color:#300;
+    font-size: 20px;
+}
+h2{
+    color:#666;
+    font-size: 16px;
+}
+p{
+    color:#000;
+    font-size: 12px;
+}
+tfoot{
+    background-color:#ccc;
+    font-size: 12px;
+    border-collapse: collapse;
+}
+thead{
+    color:white;
+    font-size: 12px;
+    background-color:#666;
+    border-collapse: collapse;
+}
+td{
+    color:#000;
+    font-size: 12px;
+    padding:10px;
+    border-collapse: collapse;
+}
+li{
+    color:#000;
+    font-size: 12px;
+}
+caption{
+    color:#000;
+    font-size: 14px;
+}
+a{
+    color:blue;
+    font-size: 12px;
+}
+table{
+    color:fff;
+    border:1px solid black;
+    margin:10px;
+    border-collapse: collapse;
+}
+th{
+    padding:10px;
+}

@@ -1,0 +1,23 @@
+body{
+    font-family: verdana;
+}
+
+img{
+    width: 300px;
+    height: 225px;
+}
+
+h1{
+    font-size: 20px;
+    color: #333;
+}
+
+h2{
+    font-size: 16px;
+    color: #666;
+}
+
+p{
+    font-size: 12px;
+    color: #000;
+}

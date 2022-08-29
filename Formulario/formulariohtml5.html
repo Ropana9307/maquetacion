@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios HTML5</title>
+</head>
+<body>
+    <form action="formget.php" method="get">
+        <ul>
+            <li>
+                <label form="name">Nombre:</label>
+                <input tpye="text" id="mail" name="user_mail"required>
+                
+            </li><br>
+            <li>
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="mail" name="user_mail" placeholder="Ej.: usuario@servidor.com" required>
+            </li><br>
+            <li>
+                <label for="url">URL:</label>
+                <input type="url" placeholder="Escribe la URL de tu página">
+            </li><br>
+            <li>
+                <label for="date">Fecha:</label>
+                <input type="date"></input>  
+            </li><br>
+            <li>
+                <label for="time">Tiempo:</label>
+                <input type="time" required></input>
+            </li><br>
+            <li>
+                <label for="datetime">Fecha y hora:</label>
+                <input type="date"></input>
+                <input type="time"></input>
+            </li><br>
+            <li>
+                <label for="month">Mes:</label>
+                <input type="month">
+            </li><br>
+            <li>
+                <label for="week">Semana:</label>
+                <input type="week">
+            </li><br>
+            <li>
+                <label for="number">Número (min- 10, max 10):</label>
+                <input type="number" id="number" name="number" min="-10" max="10">    
+            </li><br>
+            <li>
+                 <label for="tel">Teléfono:</label>
+                 <input type="tel">
+            </li><br>
+            <li>
+                <label for="search">Término de búsqueda:</label>
+                <input type="search">
+            </li><br>
+            <li>
+                <label for="color">Color Favorito:</label>
+                <input type="color">
+            </li><br>
+            <input type="submit" value="Enviar formulario" />
+            
+        </ul>
+    </form>
+</body>
+</html>

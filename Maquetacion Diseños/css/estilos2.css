@@ -1,0 +1,37 @@
+body{
+    width: 60em;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+main{
+    width: 60em;
+    margin: 0;
+    padding: 0;
+}
+
+aside{
+    float: left;
+    box-sizing: border-box;
+    width: 16em;
+}
+
+section{
+    float: right;
+    box-sizing: border-box;
+    width: 44em;
+}
+
+.content-book{
+    list-style-type: none;
+    padding: 0;
+}
+.content-book li{
+    width: 230px;
+    float: left;
+    margin: 1px;
+}  
